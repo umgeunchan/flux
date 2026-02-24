@@ -1,16 +1,13 @@
-# React + Vite
+# 🌊 FLUX: Global Logistics Stream Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+전 세계 실시간 항공 및 선박 데이터를 3D 지구상에 시각화하는 고성능 시뮬레이터입니다.
 
-Currently, two official plugins are available:
+## 🚀 Current Progress (Phase 1)
+- [x] **React Three Fiber** 기반의 3D 캔버스 환경 구축
+- [x] **Custom Shader**를 이용한 실시간 낮과 밤(Day & Night) 렌더링 구현
+- [x] 텍스처 매핑(Color, Bump, Night Maps)을 통한 고해상도 지구 구현
+- [x] 사용자 인터랙션(OrbitControls) 적용 (Zoom, Rotate, Auto-rotate)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **Frontend:** React, Three.js, React Three Fiber, Drei
+- **Optimization:** Custom GLSL Shaders
